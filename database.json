@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "prenom": "Russell",
+      "nom": "Hermiston",
+      "email": "Shakira77@yahoo.com",
+      "password": "passe",
+      "profil": "ADMIN",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "prenom": "Brennon",
+      "nom": "Steuber",
+      "email": "Wilhelm_Schroeder@yahoo.com",
+      "password": "passe",
+      "profil": "ADMIN",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "renvoyé"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "prenom": "Orlo",
+      "nom": "Schneider",
+      "email": "Wilhelm_Rippin57@yahoo.com",
+      "password": "passe",
+      "profil": "ADMIN",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "prenom": "Stephany",
+      "nom": "Mills",
+      "email": "Kelsi_Hoppe@yahoo.com",
+      "password": "passe",
+      "profil": "ADMIN",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "en attente"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "prenom": "Stephania",
+      "nom": "Harvey",
+      "email": "Christophe_Ankunding93@gmail.com",
+      "password": "passe",
+      "profil": "ADMIN",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 1,
+      "username": "user1",
+      "prenom": "Aryanna",
+      "nom": "Donnelly",
+      "email": "Edmond.DuBuque62@gmail.com",
+      "password": "passe",
+      "profil": "FORMATER",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "prenom": "Ila",
+      "nom": "Konopelski",
+      "email": "Roman.Hudson@yahoo.com",
+      "password": "passe",
+      "profil": "FORMATER",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "renvoyé"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "prenom": "Katelin",
+      "nom": "Mante",
+      "email": "Jovan.Koelpin17@yahoo.com",
+      "password": "passe",
+      "profil": "FORMATER",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "prenom": "Myrna",
+      "nom": "Schultz",
+      "email": "Jeffry.Will38@gmail.com",
+      "password": "passe",
+      "profil": "FORMATER",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "prenom": "Santos",
+      "nom": "Beier",
+      "email": "Dustin_Sipes67@hotmail.com",
+      "password": "passe",
+      "profil": "FORMATER",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 1,
+      "username": "user1",
+      "prenom": "Ramon",
+      "nom": "Brekke",
+      "email": "Joesph49@gmail.com",
+      "password": "passe",
+      "profil": "APPRENANT",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "prenom": "Grayson",
+      "nom": "Yost",
+      "email": "Stephan59@gmail.com",
+      "password": "passe",
+      "profil": "APPRENANT",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "prenom": "Rosella",
+      "nom": "Sanford",
+      "email": "Alivia_Herman91@gmail.com",
+      "password": "passe",
+      "profil": "APPRENANT",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "prenom": "Faye",
+      "nom": "Armstrong",
+      "email": "Trevion55@hotmail.com",
+      "password": "passe",
+      "profil": "APPRENANT",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "en attente"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "prenom": "Eliezer",
+      "nom": "Harber",
+      "email": "Chelsea.Towne@yahoo.com",
+      "password": "passe",
+      "profil": "APPRENANT",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "renvoyé"
+    },
+    {
+      "id": 1,
+      "username": "user1",
+      "prenom": "Earlene",
+      "nom": "Watsica",
+      "email": "Melody_Pouros@yahoo.com",
+      "password": "passe",
+      "profil": "CM",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "en attente"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "prenom": "Vicenta",
+      "nom": "Stracke",
+      "email": "Donavon_Barrows@gmail.com",
+      "password": "passe",
+      "profil": "CM",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "en attente"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "prenom": "Rachel",
+      "nom": "Glover",
+      "email": "Guiseppe31@hotmail.com",
+      "password": "passe",
+      "profil": "CM",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "prenom": "Rod",
+      "nom": "Pacocha",
+      "email": "Nikko_Dicki@yahoo.com",
+      "password": "passe",
+      "profil": "CM",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "en attente"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "prenom": "Cleora",
+      "nom": "Quitzon",
+      "email": "Noble_Ruecker@gmail.com",
+      "password": "passe",
+      "profil": "CM",
+      "avatar": "https://source.unsplash.com/1600x900/?avatar",
+      "statut": "actif"
+    },
+    {
+      "email": "Nevaunolfsdottir6@hotmail.com",
+      "password": "$2a$10$wX38pELKlMm/y.ydVx2On.otcb53YS6iuoPuKcYtd00eqxDcy54cu",
+      "prenom": "Amdy",
+      "nom": "Stoltenberg",
+      "id": 6
+    }
+  ],
+  "profils": [
+    {
+      "id": 1,
+      "libelle": "ADMIN",
+      "archivage": true
+    },
+    {
+      "id": 2,
+      "libelle": "FORMATER",
+      "archivage": true
+    },
+    {
+      "id": 3,
+      "libelle": "APPRENANT",
+      "archivage": true
+    },
+    {
+      "id": 4,
+      "libelle": "CM",
+      "archivage": true
+    }
+  ]
+}
