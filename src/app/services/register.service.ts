@@ -1,9 +1,9 @@
-import { HttpClient} from '@angular/common/http';
+import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 
-const URL = 'http://localhost:3000/register';
+const URL = 'http://localhost:8000/api/admin/formateurs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,12 +11,8 @@ const URL = 'http://localhost:3000/register';
 export class RegisterService {
 
   constructor(private http: HttpClient) { }
-  addUser(): Observable<any>{
-    return this.http.post(URL,
-      {
-      'nom': 'nom',
-      'prenom': 'prenom',
-      'email': 'email',
-      'password': 'password'});
+  addUser(formdata: FormData): Observable<any>{
+    const header = new HttpHeaders({Accept: '*/*'});
+    return this.http.post(URL, formdata, {headers: header});
   }
 }

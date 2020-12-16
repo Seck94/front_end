@@ -1,11 +1,87 @@
-<form class="example-form">
-  <mat-form-field class="example-full-width">
-    <mat-label>Favorite food</mat-label>
-    <input matInput placeholder="Ex. Pizza" value="Sushi">
-  </mat-form-field>
+<div class="main-content container mt-5">
+  <div class="container-fluid">
+      <div class="row mt-3">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title">Ajoutez un utilisateur</h4>
+                  </div>
+                  <div class="card-body">
+                      <form>
+                          <div class="row">
+                              <div class="col-md-5">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput  placeholder="Username ->" disabled>
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-6">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput [(ngModel)]="username" name="username" placeholder="Username">
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput [(ngModel)]="Nom" name="Nom" placeholder="Fist Name" type="text">
+                                </mat-form-field>
+                              </div>
+                              <div class="col-md-">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput [(ngModel)]="Prenom" name="Prenom" placeholder="Last Name" type="text">
+                                </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput [(ngModel)]="Email" name="Email" placeholder="Email" type="text">
+                                </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput [(ngModel)]="password" name="password" placeholder="Password" type="text">
+                                </mat-form-field>
+                              </div>
+                             
+                            
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                              
+                              </div>
+                          </div>
+                          <button mat-raised-button type="submit" (click)="AjouterUtilisateur()" class="btn btn-danger pull-right">Inscrire</button>
+                          <input type="submit" value="envoyer">
+                          <div class="clearfix"></div>
 
-  <mat-form-field class="example-full-width">
-    <mat-label>Leave a comment</mat-label>
-    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-  </mat-form-field>
-</form>
+                          <div class="file-field">
+                            <div class="btn btn-primary btn-sm float-right">
+                              <input type="file"  name="Avatar" [(ngModel)]="Avatar" (change)="onfile($event)">
+                            </div>
+                          
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card card-profile">
+                  <div class="card-avatar">
+                      <a href="javascript:void(0)">
+                          <img class="img" src="https://dimelo-answers-production.s3-eu-west-1.amazonaws.com/268/4c99ffb7ac969e7c/forum_x-large.png?9e4e141" />
+                      </a>
+                  </div>
+                  <div class="card-body">
+                      <h6 class="card-category text-gray">SMS / Co-Founder</h6>
+                      <p class="card-description">
+                           Voulez-vous ajoutez un nouveu utilisateur svp !!!
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

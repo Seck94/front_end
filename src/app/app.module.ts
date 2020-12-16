@@ -30,6 +30,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import { ApprenantComponent } from './apprenant/apprenant.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
+import { FormateurComponent } from './formateur/formateur.component';
 
 
 
@@ -45,7 +46,8 @@ import { MenuComponent } from './menu/menu.component';
     DashbordComponent,
     ApprenantComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    FormateurComponent
   ],
   imports: [
     BrowserModule,

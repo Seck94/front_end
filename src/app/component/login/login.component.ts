@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
  onLogin(form: any): void{
   this.connexionSer.login(form).subscribe(
     res => console.log(res)
-    //this.router.navigate(['/admins'])
+    //this.router.navigate(['/admin'])
   );
  }
 }

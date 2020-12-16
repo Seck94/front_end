@@ -32,6 +32,11 @@ export class ConnexionService {
               this.router.navigate(['/apprenants']);
               break;
              }
+             switch (tokendecode.roles[0]){
+              case 'ROLE_FORMATEUR':
+             this.router.navigate(['/formateur']);
+             break;
+            }
            }
           }
        )
