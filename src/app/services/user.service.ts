@@ -15,4 +15,10 @@ export class UserService {
   allUsers(): Observable<User[]>{
     return this.http.get<User[]>(`${environment.url}/admin/users`);
    }
+   get(id: any): Observable<User>{
+     return this.http.get<User>(`${environment.url}/admin/users/${id}`);
+   }
+   update(data: any, id: any): Observable<any>{
+    return this.http.put<any>(`${environment.url}/admin/admins/${id}`, data);
+   }
 }

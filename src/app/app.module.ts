@@ -31,6 +31,7 @@ import { ApprenantComponent } from './apprenant/apprenant.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { FormateurComponent } from './formateur/formateur.component';
+import { EditComponent } from './edit/edit.component';
 
 
 
@@ -47,7 +48,8 @@ import { FormateurComponent } from './formateur/formateur.component';
     ApprenantComponent,
     FooterComponent,
     MenuComponent,
-    FormateurComponent
+    FormateurComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,

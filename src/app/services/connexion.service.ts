@@ -22,7 +22,7 @@ export class ConnexionService {
            if (user) {
              localStorage.setItem('token', JSON.stringify(user));
              const tokendecode = jwt_decode(user.token);
-             switch (tokendecode.roles[0]){
+             switch ( tokendecode.roles[0]){
                case 'ROLE_ADMIN':
               this.router.navigate(['/admin']);
               break;

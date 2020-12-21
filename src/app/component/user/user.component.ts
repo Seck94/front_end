@@ -10,7 +10,7 @@ import { User } from 'src/models/user.models';
 })
 export class UserComponent implements OnInit {
 
-  displayedColumns: string[] = ['id', 'Prenom', 'Nom', 'Email', 'username', 'profil'];
+  displayedColumns: string[] = ['id', 'Prenom', 'Nom', 'Email', 'username', 'profil', 'Modifier', 'Supprimer'];
   dataSource = new MatTableDataSource<User>();
 
   users: User[] = [];
